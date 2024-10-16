@@ -1,0 +1,147 @@
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 16px;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background: url("/assets/capa.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.mainFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+
+.mainFlex .container {
+  width: 70%;
+  align-items: center;
+}
+.mainFlex .container .allImg {
+  display: grid;
+}
+
+.mainFlex .container .allImg .img1 {
+  width: 24%;
+  margin-left: 32px;
+}
+
+.mainFlex .container .allImg .img3 {
+  width: 48%;
+  margin-left: 32px;
+}
+
+.mainFlex .container .allImg .img2 {
+  width: 80%;
+}
+
+.mainFlex .container .text {
+  color: #fff;
+  font-family: "montserrat", sans-serif;
+  font-size: 20px;
+  line-height: 26px;
+  width: 515px;
+  padding: 8px 0 16px;
+  margin-left: 16px;
+}
+
+.mainFlex .btnImg {
+  display: grid;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.mainFlex .btn {
+  color: #fff;
+  font-family: "montserrat", sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  background: linear-gradient(289deg, #b30000 0%, #ff0000 100%);
+  margin-top: 20px;
+  padding: 20px 50px;
+  border-radius: 7px;
+  width: 60%;
+  text-align: center;
+}
+
+.mainFlex .google {
+  width: 20%;
+  margin-top: 16px;
+  margin-left: 16px;
+}
+
+@media (max-width: 426px) {
+  body {
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background: url("/assets/stories-inteiro.jpg") no-repeat;
+
+    background-size: 130%;
+  }
+
+  .mainFlex {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .mainFlex .container {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .mainFlex .container .allImg {
+    width: 100%;
+    margin-top: 400px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mainFlex .container .allImg .img1,
+  .mainFlex .container .allImg .img2,
+  .mainFlex .container .allImg .img3 {
+    margin: 0 auto;
+  }
+
+  .mainFlex .container .allImg .img1 {
+    width: 30%;
+  }
+
+  .mainFlex .container .allImg .img2 {
+    margin-top: -18px;
+    width: 100%;
+  }
+
+  .mainFlex .container .allImg .img3 {
+    width: 70%;
+  }
+
+  .mainFlex .container .text {
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .mainFlex .btn {
+    font-size: 17px;
+    width: 100%;
+    margin-top: -8px;
+  }
+
+  .mainFlex .google {
+    margin: 8px auto;
+    width: 36%;
+  }
+}
